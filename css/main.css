@@ -20,18 +20,20 @@ html {
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: #e2e2e2;
+
 }
 
 .btn {
   color: #fff;
-  background-color: #333;
+  background-color: #555;
   display: inline-block;
   padding: 0.4em 0.75em 0.3em;
   border-width: 3px;
   border-radius: 5px;
   padding: 0.4em;
   text-decoration: none;
-  border: 3px solid #333;
+  border: 2px solid #555;
 }
 
 figure {
@@ -42,6 +44,10 @@ figure {
 .img-flex {
   width: 100%;
   display: block;
+}
+
+header, div {
+  padding: 1em;
 }
 
 @media only screen and (min-width: 25em) {
