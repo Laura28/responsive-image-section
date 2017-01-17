@@ -21,24 +21,30 @@ body {
   margin: 0;
   font-family: sans-serif;
   background-color: #e2e2e2;
-
 }
 
-.btn {
+h1, p {
+  text-align: left;
+}
+
+a {
   color: #fff;
   background-color: #555;
   display: inline-block;
-  padding: 0.4em 0.75em 0.3em;
+  padding: 0.5em 0.75em;
   border-width: 3px;
-  border-radius: 5px;
+  border-radius: 4px;
   padding: 0.4em;
   text-decoration: none;
   border: 2px solid #555;
+  text-align: center;
 }
 
 figure {
   margin: 0;
   background-color: #e2e2e2;
+  max-width: 100%;
+  vertical-align: middle;
 }
 
 .img-flex {
