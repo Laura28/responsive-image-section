@@ -21,15 +21,27 @@ body {
   margin: 0;
   font-family: sans-serif;
   background-color: #e2e2e2;
+  position: relative;
 }
 
 h1 {
   font-size: 1.5em;
   padding-right: 3em;
+  margin-bottom: auto;
 }
 
 h1, p {
   text-align: left;
+  margin-bottom: auto;
+}
+
+.bold {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding-top: 0;
 }
 
 a {
@@ -47,8 +59,9 @@ a {
 figure {
   margin: 0;
   background-color: #e2e2e2;
-  max-width: 100%;
+  max-width: 80%;
   vertical-align: middle;
+  float: inherit;
 }
 
 .img-flex {
@@ -81,8 +94,24 @@ header, div {
   }
 
   figure {
-    right: 200px;
-    top: 200px;
+    position: relative;
+    right: 300px;
+    top: -275px;
+    left: -2.5px;
+    float: right;
+    max-width: 50%;
+  }
+
+  h1 {
+    padding-right: 12em;
+    float: left;
+    position: relative;
+  }
+
+  p {
+    padding-right: 17em;
+    float: left;
+    position: relative;
   }
 
 }
