@@ -30,7 +30,7 @@ h1 {
   margin-right: 3em;
   padding-top: 0;
   position: relative;
-  top: -10px;
+  top: -14px;
 }
 
 h1, p {
@@ -42,11 +42,14 @@ h1, p {
   margin: 0;
   padding: 0;
   position: relative;
-  top: -10px;
+  top: -11px;
 }
 
 p {
   padding-top: 0;
+  margin-top: 0;
+  position: relative;
+  top: -2px;
 }
 
 a {
@@ -188,26 +191,40 @@ header, div {
     font-size: 130%;
     line-height: 1.5;
     max-height: 15em;
+    margin-bottom: auto;
   }
 
   h1 {
     position: relative;
-    margin-left: 6em;
+    margin-left: 6.5em;
     margin-right: 10em;
-    margin-top: 2em;
+    margin-top: 1.8em;
+  }
+
+  .bold {
+    position: relative;
+    top: -3px;
+    padding: 0;
   }
 
   p {
     position: relative;
-    margin-left: 9em;
-    margin-right: 10em;
+    margin-left: 9.5em;
+    padding-right: 26em;
+    padding-bottom: -1.5em;
   }
 
   figure {
     position: relative;
     max-width: 37%;
     top: 15px;
-    left: 300px;
+    left: 100px;
+  }
+
+  a {
+    position: relative;
+    left: 190px;
+    top: -20px;
   }
 
 }
